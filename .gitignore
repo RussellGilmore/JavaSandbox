@@ -12,3 +12,6 @@
 hs_err_pid*
 /Random Implementations/nbproject/private/
 /nbproject/private/
+/build/
+/CORBA/nbproject/private/
+/CORBA/build/

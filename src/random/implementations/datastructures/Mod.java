@@ -31,7 +31,7 @@ public class Mod {
 
     public static void main(String[] args) {
         Mod mod = new Mod();
-        System.out.println(mod.mod(-133, 11));
+        System.out.println(mod.mod(2, 3));
 
     }
 
