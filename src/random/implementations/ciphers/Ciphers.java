@@ -27,10 +27,10 @@ package random.implementations.ciphers;
  *
  * @author Russell
  */
-public class Caesar {
+public class Ciphers {
 
     public static void main(String[] args) {
-        Caesar plain = new Caesar();
+        Ciphers plain = new Ciphers();
 
         plain.makeKey();
 

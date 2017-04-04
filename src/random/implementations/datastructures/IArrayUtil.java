@@ -24,27 +24,28 @@
 package random.implementations.datastructures;
 
 /**
- * Done with array
  *
- * @author Russell
+ * @author ragilmore0
+ * @param <E>
  */
-public class RuruStackArray<E> {
+public interface IArrayUtil<E> {
 
-    private final Object[] data;
-    private int i;
+    boolean add(E e);
 
-    public RuruStackArray(int size) {
-        this.data = new Object[size];
-    }
-
-    public void push(E e) {
-        this.data[i++] = e;
-    }
-
-    public E pop() {
-        E e = (E) this.data[--i];
-        return e;
-
-    }
+    void remove();
+    
+    boolean contains(E e);
+    
+    int size();
+    
+    void set(int index, E e); 
+    
+    <E extends Comparable<E>> void sort();
+    
+    String printMyArray();
+    
+    
+    
+    
 
 }

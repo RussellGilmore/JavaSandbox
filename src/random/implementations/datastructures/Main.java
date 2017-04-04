@@ -25,14 +25,14 @@ package random.implementations.datastructures;
 
 /**
  *
- * @author Russell
+ * @author ragilmore0
  */
-public class Args {
+public class Main {
 
     public static void main(String[] args) {
-        for (int i = 0; i < args.length; i++) {
-            System.out.println(args[i]);
-        }
+       TestCases test = new TestCases();
+       test.init();
+       
     }
 
 }
